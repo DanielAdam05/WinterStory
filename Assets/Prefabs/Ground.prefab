@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4015088370366354231}
   - component: {fileID: 2432185599731552191}
   - component: {fileID: 6895419917607380875}
-  - component: {fileID: 8358723454600508399}
+  - component: {fileID: 659453250765645955}
   m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
@@ -91,8 +91,8 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!154 &8358723454600508399
-TerrainCollider:
+--- !u!64 &659453250765645955
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,8 +106,10 @@ TerrainCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_TerrainData: {fileID: 0}
-  m_EnableTreeColliders: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1176307857437010790, guid: d82cc77deb124a246a59c538a160f12b, type: 3}
