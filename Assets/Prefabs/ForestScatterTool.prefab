@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ForestScatter
   terrain: {fileID: 0}
-  densityMask: {fileID: 2800000, guid: 17f6ec3fdde1f1343b0a5d40856b75e9, type: 3}
+  densityMask: {fileID: 2800000, guid: 7505c7cf01cf8604183b33f7529bef7b, type: 3}
   treePrefabs:
   - {fileID: 7967656503524577908, guid: 4b9cdabcf2db3ca4fa79cb9a98daf2c5, type: 3}
   cellSize: 10
