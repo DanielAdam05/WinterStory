@@ -47,8 +47,9 @@ MonoBehaviour:
   terrain: {fileID: 0}
   densityMask: {fileID: 2800000, guid: 7505c7cf01cf8604183b33f7529bef7b, type: 3}
   treePrefabs:
-  - {fileID: 7967656503524577908, guid: 4b9cdabcf2db3ca4fa79cb9a98daf2c5, type: 3}
-  cellSize: 10
+  - {fileID: 4506822522502644077, guid: 05ad68a94324d914baf96f3b041f190a, type: 3}
+  - {fileID: 2908119536488226365, guid: d5d14deedea63b14ea1615da6bd729ae, type: 3}
+  cellSize: 5
   jitterAmmount: 0.8
   maxDensity: 0.884
   maxSlopeAngle: 35
