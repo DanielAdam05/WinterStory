@@ -9,13 +9,10 @@ public class VoiceoverTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Something entered trigger: " + other.gameObject.name + " | Tag: " + other.tag);
         if (!other.CompareTag("Player")) return;
         if (playOnlyOnce && hasPlayed) return;
 
-        audioSource.Play();
+        VoiceoverManager.Instance.RequestPlay(audioSource);
         hasPlayed = true;
     }
-
-  
 }
