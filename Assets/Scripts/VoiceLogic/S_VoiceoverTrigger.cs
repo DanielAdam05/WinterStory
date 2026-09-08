@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
+[RequireComponent(typeof(SphereCollider))]
 public class VoiceoverTrigger : MonoBehaviour
 {
     public int sequenceIndex;
@@ -60,7 +62,7 @@ public class VoiceoverTrigger : MonoBehaviour
         hasPlayed = true;
         waitingForTurn = false;
 
-        VoiceSequenceManager.Instance.NotifyStarted();
+        VoiceSequenceManager.Instance.NotifyStarted(sequenceIndex);
         audioSource.Play();
 
         StartCoroutine(WaitUntilFinished());
@@ -77,6 +79,6 @@ public class VoiceoverTrigger : MonoBehaviour
         }
 
         // Notify finished when audioSource.isPlaying = false
-        VoiceSequenceManager.Instance.NotifyFinished();
+        VoiceSequenceManager.Instance.NotifyFinished(sequenceIndex);
     }
 }

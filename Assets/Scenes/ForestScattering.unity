@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.03
+  m_FogDensity: 0
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -371170,6 +371170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 4765920048822028828, guid: 0785a3d5a22a3314ba69365c48d9c888, type: 3}
+      propertyPath: moonLight
+      value: 
+      objectReference: {fileID: 3833648867857577378}
     - target: {fileID: 4933267685174827337, guid: 0785a3d5a22a3314ba69365c48d9c888, type: 3}
       propertyPath: m_LocalPosition.x
       value: -262.53134
@@ -564789,7 +564793,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2322473839292217246, guid: 6d6c87d4128ee0340b87b450048621e7, type: 3}
       propertyPath: m_Intensity
-      value: 0.7
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6914936601571712187, guid: 6d6c87d4128ee0340b87b450048621e7, type: 3}
       propertyPath: m_Name

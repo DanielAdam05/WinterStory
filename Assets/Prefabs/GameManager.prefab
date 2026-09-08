@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2960655945123514481}
   - component: {fileID: 2331526126695166971}
   - component: {fileID: 32513991602731419}
+  - component: {fileID: 4765920048822028828}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -76,3 +77,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VoiceSequenceManager
   nextIndexToPlay: 0
+  voiceOverCount: 9
+--- !u!114 &4765920048822028828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4331392701585677811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c92db58b86a294e9d6128d57b3ec76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightingController
+  moonLight: {fileID: 0}
+  startingMoonIntensity: 0.5
+  finalMoonIntensity: 0
+  startingEnvLightIntensity: 1
+  finalEnvLightIntensity: 0
+  startingEnvReflectionIntensity: 1
+  finalEnvReflectionIntensity: 0.4
+  startingFogDensity: 0
+  finalFogDensity: 0.09
